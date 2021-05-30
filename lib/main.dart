@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-        title: Text("login"),),
+        title: Text("login page"),),
 
         body:SingleChildScrollView(
         child:
