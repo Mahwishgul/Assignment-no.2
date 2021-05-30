@@ -16,6 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(
+        title: Text("login"),),
+
         body:SingleChildScrollView(
         child:
         Stack(
