@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-        title: Text("login"),),
+        title:
+        Center(child: Text("Login")),
+              backgroundColor: Colors.brown.shade900,
+        ),
 
         body:SingleChildScrollView(
         child:
